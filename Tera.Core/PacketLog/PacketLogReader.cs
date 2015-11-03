@@ -4,27 +4,55 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
 
 namespace Tera.PacketLog
 {
     public class PacketLogReader
     {
-        private DateTime _time;
         private readonly Stream _stream;
+
+        private DateTime _time;
+        public LogHeader Header { get; private set; }
 
         internal PacketLogReader(Stream stream)
         {
             _stream = stream;
+            Header = new LogHeader();
             ReadHeader();
         }
 
         private void ReadHeader()
         {
             BlockType blockType;
+            byte[] data;
+
+            {
+                // magic bytes
+                BlockHelper.ReadBlock(_stream, out blockType, out data);
+                if (blockType != BlockType.MagicBytes)
+                    throw new FormatException("First block must be a MagicBytes block");
+                if (!data.SequenceEqual(LogHelper.Encoding.GetBytes(LogHelper.MagicBytes)))
+                    throw new FormatException("Incorrect magic bytes");
+            }
+
             do
             {
-                byte[] data;
                 BlockHelper.ReadBlock(_stream, out blockType, out data);
+                switch (blockType)
+                {
+                    case BlockType.Start:
+                        break;
+                    case BlockType.Region:
+                        Header.Region = LogHelper.Encoding.GetString(data);
+                        break;
+                    case BlockType.MagicBytes:
+                    case BlockType.Timestamp:
+                    case BlockType.Server:
+                    case BlockType.Client:
+                        throw new FormatException(string.Format("Unexpected block type in header '{0}'", blockType));
+                }
             } while (blockType != BlockType.Start);
         }
 
@@ -52,24 +80,6 @@ namespace Tera.PacketLog
                 }
             }
             return null;
-        }
-
-        public static IEnumerable<Message> ReadMessages(string filename)
-        {
-            return ReadMessages(() => new FileStream(filename, FileMode.Open, FileAccess.Read, FileShare.ReadWrite));
-        }
-
-        private static IEnumerable<Message> ReadMessages(Func<Stream> openStream)
-        {
-            using (var stream = openStream())
-            {
-                var reader = new PacketLogReader(stream);
-                Message message;
-                while ((message = reader.ReadMessage()) != null)
-                {
-                    yield return message;
-                }
-            }
         }
     }
 }

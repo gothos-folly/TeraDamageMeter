@@ -3,7 +3,7 @@
 
 namespace Tera.Game
 {
-    public class ProjectileEntity : Entity
+    public class ProjectileEntity : Entity, IHasOwner
     {
         public EntityId OwnerId { get; private set; }
         public Entity Owner { get; private set; }

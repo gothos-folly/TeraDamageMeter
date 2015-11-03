@@ -47,5 +47,19 @@ namespace Tera.Game
                 builder.Append(c);
             }
         }
+
+        public Vector3f ReadVector3f()
+        {
+            Vector3f result;
+            result.X = ReadSingle();
+            result.Y = ReadSingle();
+            result.Z = ReadSingle();
+            return result;
+        }
+
+        public Angle ReadAngle()
+        {
+            return new Angle(ReadUInt16());
+        }
     }
 }

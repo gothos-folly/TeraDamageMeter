@@ -25,9 +25,9 @@ namespace Tera.Game
             Entity newEntity = null;
             message.On<SpawnUserServerMessage>(m => newEntity = new UserEntity(m));
             message.On<LoginServerMessage>(m => newEntity = new UserEntity(m));
-            message.On<SpawnNpcServerMessage>(m => newEntity = new NpcEntity(m));
-            message.On<SpawnProjectileServerMessage>(m => newEntity = new ProjectileEntity(m.Id, m.OwnerId, GetOrNull(m.OwnerId)));
-            message.On<StartUserProjectileServerMessage>(m => newEntity = new ProjectileEntity(m.Id, m.OwnerId, GetOrNull(m.OwnerId)));
+            message.On<SpawnNpcServerMessage>(m => newEntity = new NpcEntity(m.Id, m.OwnerId, GetOrPlaceholder(m.OwnerId)));
+            message.On<SpawnProjectileServerMessage>(m => newEntity = new ProjectileEntity(m.Id, m.OwnerId, GetOrPlaceholder(m.OwnerId)));
+            message.On<StartUserProjectileServerMessage>(m => newEntity = new ProjectileEntity(m.Id, m.OwnerId, GetOrPlaceholder(m.OwnerId)));
             if (newEntity != null)
             {
                 _dictionary[newEntity.Id] = newEntity;
@@ -44,6 +44,8 @@ namespace Tera.Game
 
         public Entity GetOrPlaceholder(EntityId id)
         {
+            if (id == EntityId.Empty)
+                return null;
             var entity = GetOrNull(id);
             if (entity != null)
                 return entity;

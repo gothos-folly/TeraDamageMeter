@@ -13,9 +13,6 @@ namespace Tera.DamageMeter
     public class DamageTracker : IEnumerable<PlayerInfo>
     {
         readonly Dictionary<Player, PlayerInfo> _statsByUser = new Dictionary<Player, PlayerInfo>();
-        private readonly EntityTracker _entityTracker;
-        private readonly PlayerTracker _playerTracker;
-        private readonly SkillDatabase _skillDatabase;
         public DateTime? FirstAttack { get; private set; }
         public DateTime? LastAttack { get; private set; }
         public TimeSpan? Duration { get { return LastAttack - FirstAttack; } }
@@ -28,11 +25,8 @@ namespace Tera.DamageMeter
 
         }
 
-        public DamageTracker(EntityTracker entityRegistry, PlayerTracker playerTracker, SkillDatabase skillDatabase)
+        public DamageTracker()
         {
-            _entityTracker = entityRegistry;
-            _skillDatabase = skillDatabase;
-            _playerTracker = playerTracker;
             TotalDealt = new SkillStats();
             TotalReceived = new SkillStats();
         }
@@ -49,9 +43,8 @@ namespace Tera.DamageMeter
             return playerStats;
         }
 
-        public void Update(EachSkillResultServerMessage message)
+        public void Update(SkillResult skillResult)
         {
-            var skillResult = new SkillResult(message, _entityTracker, _playerTracker, _skillDatabase);
             if (skillResult.SourcePlayer != null)
             {
                 var playerStats = GetOrCreate(skillResult.SourcePlayer);

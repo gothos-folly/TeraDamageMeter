@@ -6,11 +6,16 @@ using Tera.Game.Messages;
 namespace Tera.Game
 {
     // NPCs and Mosters - Tera doesn't distinguish these
-    public class NpcEntity : Entity
+    public class NpcEntity : Entity, IHasOwner
     {
-        public NpcEntity(SpawnNpcServerMessage message)
-            :base(message.Id)
+        public EntityId OwnerId { get; private set; }
+        public Entity Owner { get; private set; }
+
+        public NpcEntity(EntityId id, EntityId ownerId, Entity owner)
+            : base(id)
         {
+            OwnerId = ownerId;
+            Owner = owner;
         }
     }
 }

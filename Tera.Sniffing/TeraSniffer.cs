@@ -50,7 +50,7 @@ namespace Tera.Sniffing
             }
         }
 
-        public int BufferSize
+        public int? BufferSize
         {
             get
             {

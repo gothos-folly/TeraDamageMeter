@@ -22,7 +22,7 @@ namespace Tera.PacketLog
         {
             _stream = stream;
             _ownsStream = ownsStream;
-            BlockHelper.WriteBlock(_stream, BlockType.MagicBytes, new ArraySegment<byte>(Encoding.ASCII.GetBytes("TeraConnectionLog")));
+            BlockHelper.WriteBlock(_stream, BlockType.MagicBytes, new ArraySegment<byte>(LogHelper.Encoding.GetBytes(LogHelper.MagicBytes)));
             BlockHelper.WriteBlock(_stream, BlockType.Region, new ArraySegment<byte>(Encoding.UTF8.GetBytes(header.Region)));
             BlockHelper.WriteBlock(_stream, BlockType.Start, new ArraySegment<byte>(new byte[0]));
         }

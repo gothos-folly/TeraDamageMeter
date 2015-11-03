@@ -8,7 +8,7 @@ namespace Tera.Game
 {
     // Identifies an entity
     // It might be a good idea to split this into two 32 bit words, since one of them seems to be the actual Id, the other consisting of flags.
-    public struct EntityId:IEquatable<EntityId>
+    public struct EntityId : IEquatable<EntityId>
     {
         private readonly ulong _id;
 
@@ -49,5 +49,7 @@ namespace Tera.Game
         {
             return _id.GetHashCode();
         }
+
+        public static readonly EntityId Empty = new EntityId(0);
     }
 }

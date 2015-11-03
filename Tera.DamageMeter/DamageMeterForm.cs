@@ -23,7 +23,7 @@ namespace Tera.DamageMeter
         private static TeraData _teraData;
         private readonly Dictionary<PlayerInfo, PlayerStatsControl> _controls = new Dictionary<PlayerInfo, PlayerStatsControl>();
         private MessageFactory _messageFactory;
-        private EntityTracker _entityRegistry;
+        private EntityTracker _entityTracker;
         private DamageTracker _damageTracker;
         private Server _server;
         private PlayerTracker _playerTracker;
@@ -55,11 +55,8 @@ namespace Tera.DamageMeter
             _teraSniffer.MessageReceived += message => InvokeAction(() => HandleMessageReceived(message));
             _teraSniffer.NewConnection += server => InvokeAction(() => HandleNewConnection(server));
             _teraSniffer.Warning += LogWarning;
-            if (_settings.BufferSize != null)
-            {
-                Logger.Log(string.Format("Setting buffer size to {0}B", FormatHelpers.Invariant.FormatValue(_settings.BufferSize)));
-                _teraSniffer.BufferSize = _settings.BufferSize.Value;
-            }
+            _teraSniffer.BufferSize = _settings.BufferSize;
+            Logger.Log(string.Format("Setting buffer size to {0}B", FormatHelpers.Invariant.FormatValue(_settings.BufferSize)??"Default"));
             SettingsChanged();
 
             StartSniffing();
@@ -182,9 +179,9 @@ namespace Tera.DamageMeter
             Text = string.Format("Damage Meter connected to {0}", server.Name);
             _server = server;
             _teraData = _basicTeraData.DataForRegion(server.Region);
-            _entityRegistry = new EntityTracker();
-            _playerTracker = new PlayerTracker(_entityRegistry);
-            _damageTracker = new DamageTracker(_entityRegistry, _playerTracker, _teraData.SkillDatabase);
+            _entityTracker = new EntityTracker();
+            _playerTracker = new PlayerTracker(_entityTracker);
+            _damageTracker = new DamageTracker();
             _messageFactory = new MessageFactory(_teraData.OpCodeNamer);
 
             Logger.Log(Text);
@@ -193,12 +190,13 @@ namespace Tera.DamageMeter
         private void HandleMessageReceived(Message obj)
         {
             var message = _messageFactory.Create(obj);
-            _entityRegistry.Update(message);
+            _entityTracker.Update(message);
 
             var skillResultMessage = message as EachSkillResultServerMessage;
             if (skillResultMessage != null)
             {
-                _damageTracker.Update(skillResultMessage);
+                var skillResult = new SkillResult(skillResultMessage, _entityTracker, _playerTracker, _teraData.SkillDatabase);
+                _damageTracker.Update(skillResult);
             }
         }
 
@@ -212,7 +210,7 @@ namespace Tera.DamageMeter
         {
             if (_server == null)
                 return;
-            _damageTracker = new DamageTracker(_entityRegistry, _playerTracker, _teraData.SkillDatabase);
+            _damageTracker = new DamageTracker();
         }
 
         private void RefershTimer_Tick(object sender, EventArgs e)
@@ -236,9 +234,13 @@ namespace Tera.DamageMeter
                 return;
 
             _teraSniffer.Enabled = false;
-            var server = new Server("Packet Log", "EU", null);
+
+            var log = new PacketLogFile(OpenPacketLogFileDialog.FileName);
+
+            var server = new Server(string.Format("[{0}] Packet Log", log.Header.Region), log.Header.Region, null);
             HandleNewConnection(server);
-            foreach (var message in PacketLogReader.ReadMessages(OpenPacketLogFileDialog.FileName))
+
+            foreach (var message in log.Messages)
             {
                 HandleMessageReceived(message);
             }

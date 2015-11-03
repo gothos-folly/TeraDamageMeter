@@ -2,12 +2,16 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 using System;
+using System.Text;
 
 namespace Tera.PacketLog
 {
     internal class LogHelper
     {
         private static readonly DateTime TimeOrigin = new DateTime(2015, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+
+        public static readonly Encoding Encoding = new UTF8Encoding(false, true);
+        public static readonly string MagicBytes = "TeraConnectionLog";
 
         public static byte[] DateTimeToBytes(DateTime dateTime)
         {
