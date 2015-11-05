@@ -47,7 +47,14 @@ namespace NetworkSniffer
         private void Start()
         {
             Debug.Assert(_devices == null);
-            _devices = WinPcapDeviceList.New();
+            try
+            {
+                _devices = WinPcapDeviceList.New();
+            }
+            catch (DllNotFoundException ex)
+            {
+                throw new NetworkSniffingException("WinPcap is not installed", ex);
+            }
             var interestingDevices = _devices.Where(IsInteresting);
             foreach (var device in interestingDevices)
             {

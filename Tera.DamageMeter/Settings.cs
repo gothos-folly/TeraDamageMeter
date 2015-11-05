@@ -2,6 +2,7 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 using System;
+using System.Drawing;
 using System.IO;
 using Newtonsoft.Json;
 
@@ -22,6 +23,8 @@ namespace Tera.DamageMeter
         public bool AlwaysOnTop { get; set; }
         public double Opacity { get; set; }
         public int? BufferSize { get; set; }
+
+        public Rectangle? WindowPosition { get; set; }
 
         public Settings()
         {

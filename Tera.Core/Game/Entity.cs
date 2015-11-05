@@ -15,7 +15,25 @@ namespace Tera.Game
 
         public override string ToString()
         {
-            return string.Format("{0} {1}", GetType().Name, Id);
+            var result= string.Format("{0} {1}", GetType().Name, Id);
+            if (RootOwner != this)
+                result = string.Format("{0} owned by {1}", result, RootOwner);
+            return result;
+        }
+        
+        public Entity RootOwner
+        {
+            get
+            {
+                var entity = this;
+                var ownedEntity = entity as IHasOwner;
+                while (ownedEntity != null && ownedEntity.Owner != null)
+                {
+                    entity = ownedEntity.Owner;
+                    ownedEntity = entity as IHasOwner;
+                }
+                return entity;
+            }
         }
     }
 }

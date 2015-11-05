@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -143,10 +144,27 @@ namespace Tera.DamageMeter
             }
         }
 
+        private static bool IsVisibleOnScreen(Point p)
+        {
+            return Screen.AllScreens.Any(screen => screen.WorkingArea.Contains(p));
+        }
+
+        private static bool IsVisibleOnScreen(Rectangle rect)
+        {
+            return IsVisibleOnScreen(rect.Location) && IsVisibleOnScreen(rect.Location + rect.Size);
+        }
+
         public void SettingsChanged()
         {
             if (_settings.AlwaysOnTop != TopMost)
+            {
                 TopMost = _settings.AlwaysOnTop;
+            }
+            if (_settings.WindowPosition != null && IsVisibleOnScreen(new Rectangle(_settings.WindowPosition.Value.Location, new Size(100, 100))))
+            {
+                DesktopLocation = _settings.WindowPosition.Value.Location;
+                Size = _settings.WindowPosition.Value.Size;
+            }
             Opacity = _settings.Opacity;
             alwaysOnTopToolStripMenuItem.Checked = _settings.AlwaysOnTop;
 
@@ -178,7 +196,7 @@ namespace Tera.DamageMeter
             Text = string.Format("Damage Meter connected to {0}", server.Name);
             _server = server;
             _teraData = _basicTeraData.DataForRegion(server.Region);
-            _entityTracker = new EntityTracker();
+            _entityTracker = new EntityTracker(_teraData.NpcDatabase);
             _playerTracker = new PlayerTracker(_entityTracker);
             _damageTracker = new DamageTracker();
             _messageFactory = new MessageFactory(_teraData.OpCodeNamer);
@@ -201,6 +219,9 @@ namespace Tera.DamageMeter
 
         private void DamageMeterForm_FormClosed(object sender, FormClosedEventArgs e)
         {
+            _settings.WindowPosition = new Rectangle(DesktopLocation, Size);
+            SettingsChanged();
+
             _hotKeyManager.Dispose();
             _teraSniffer.Enabled = false;
         }

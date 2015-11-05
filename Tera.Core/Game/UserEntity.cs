@@ -40,16 +40,5 @@ namespace Tera.Game
         {
             return string.Format("{0} [{1}]", Name, GuildName);
         }
-
-        public static UserEntity ForEntity(Entity entity)
-        {
-            var ownedEntity = entity as IHasOwner;
-            while (ownedEntity != null && ownedEntity.Owner != null)
-            {
-                entity = ownedEntity.Owner;
-                ownedEntity = entity as IHasOwner;
-            }
-            return entity as UserEntity;
-        }
     }
 }

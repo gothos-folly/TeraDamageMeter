@@ -10,8 +10,8 @@ namespace Tera.Game.Messages
         public EntityId TargetId { get; private set; }
         public Vector3f Position { get; private set; }
         public Angle Heading { get; private set; }
-        public uint NpcId { get; private set; }
-        public ushort NpcType { get; private set; }
+        public int TemplateId { get; private set; }
+        public ushort HuntingZoneId { get; private set; }
         public uint ModelId { get; private set; }
 
         internal SpawnNpcServerMessage(TeraMessageReader reader)
@@ -23,8 +23,8 @@ namespace Tera.Game.Messages
             Position = reader.ReadVector3f();
             Heading = reader.ReadAngle();
             reader.Skip(4);
-            NpcId = reader.ReadUInt32();
-            NpcType = reader.ReadUInt16();
+            TemplateId = reader.ReadInt32();
+            HuntingZoneId = reader.ReadUInt16();
             ModelId = reader.ReadUInt32();
             reader.Skip(31);
             OwnerId = reader.ReadEntityId();

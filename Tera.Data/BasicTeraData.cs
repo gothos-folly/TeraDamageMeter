@@ -13,12 +13,6 @@ namespace Tera.Data
 {
     public class BasicTeraData
     {
-        private static Func<T, TResult> Memoize<T, TResult>(Func<T, TResult> func)
-        {
-            var lookup = new ConcurrentDictionary<T, TResult>();
-            return x => lookup.GetOrAdd(x, func);
-        }
-
         public string ResourceDirectory { get; private set; }
         public IEnumerable<Server> Servers { get; private set; }
         public IEnumerable<Region> Regions { get;private set; }
@@ -37,7 +31,7 @@ namespace Tera.Data
         public BasicTeraData(string resourceDirectory)
         {
             ResourceDirectory = resourceDirectory;
-            _dataForRegion = Memoize<string, TeraData>(region => new TeraData(this, region));
+            _dataForRegion = Helpers.Memoize<string, TeraData>(region => new TeraData(this, region));
             Servers = GetServers(Path.Combine(ResourceDirectory, "servers.txt")).ToList();
             Regions = GetRegions(Path.Combine(ResourceDirectory, "regions.txt")).ToList();
         }

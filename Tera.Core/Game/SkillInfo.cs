@@ -3,23 +3,23 @@
 
 namespace Tera.Game
 {
-    public class Skill
+    public class SkillInfo
     {
         public int Id { get; private set; }
         public string Name { get; private set; }
 
-        internal Skill(int id, string name)
+        internal SkillInfo(int id, string name)
         {
             Id = id;
             Name = name;
         }
     }
 
-    public class UserSkill : Skill
+    public class UserSkillInfo : SkillInfo
     {
         public RaceGenderClass RaceGenderClass { get; private set; }
 
-        public UserSkill(int id, RaceGenderClass raceGenderClass, string name)
+        public UserSkillInfo(int id, RaceGenderClass raceGenderClass, string name)
             : base(id, name)
         {
             RaceGenderClass = raceGenderClass;
@@ -27,7 +27,7 @@ namespace Tera.Game
 
         public override bool Equals(object obj)
         {
-            var other = obj as UserSkill;
+            var other = obj as UserSkillInfo;
             if (other == null)
                 return false;
             return (Id == other.Id) && (RaceGenderClass.Equals(other.RaceGenderClass));

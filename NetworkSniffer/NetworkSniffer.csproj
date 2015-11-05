@@ -46,6 +46,7 @@
     <Compile Include="IpSnifferRawSocketMultipleInterfaces.cs" />
     <Compile Include="IpSnifferRawSocketSingleInterface.cs" />
     <Compile Include="IpSnifferWinPcap.cs" />
+    <Compile Include="NetworkSniffingException.cs" />
     <Compile Include="Packets\IpPacket.cs" />
     <Compile Include="Packets\TcpPacket.cs" />
     <Compile Include="Packets\ParserHelpers.cs" />

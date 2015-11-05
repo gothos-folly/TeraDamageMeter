@@ -12,7 +12,7 @@ namespace Tera.Game
     // Currently this is limited to the name of the skill
     public class SkillDatabase
     {
-        private readonly Dictionary<RaceGenderClass, List<UserSkill>> _userSkilldata = new Dictionary<RaceGenderClass, List<UserSkill>>();
+        private readonly Dictionary<RaceGenderClass, Dictionary<int, UserSkillInfo>> _userSkilldata = new Dictionary<RaceGenderClass, Dictionary<int, UserSkillInfo>>();
 
         public SkillDatabase(string filename)
         {
@@ -20,47 +20,41 @@ namespace Tera.Game
             var listOfParts = lines.Select(s => s.Split(new[] { ' ' }, 5));
             foreach (var parts in listOfParts)
             {
-                var skill = new UserSkill(int.Parse(parts[0]), new RaceGenderClass(parts[1], parts[2], parts[3]), parts[4]);
+                var skill = new UserSkillInfo(int.Parse(parts[0]), new RaceGenderClass(parts[1], parts[2], parts[3]), parts[4]);
                 if (!_userSkilldata.ContainsKey(skill.RaceGenderClass))
-                    _userSkilldata[skill.RaceGenderClass] = new List<UserSkill>();
-                _userSkilldata[skill.RaceGenderClass].Add(skill);
+                    _userSkilldata[skill.RaceGenderClass] = new Dictionary<int, UserSkillInfo>();
+                _userSkilldata[skill.RaceGenderClass].Add(skill.Id, skill);
             }
         }
 
         // skillIds are reused across races and class, so we need a RaceGenderClass to disambiguate them
-        public UserSkill Get(UserEntity user, int skillId)
+        public UserSkillInfo GetOrNull(UserEntity user, int skillId)
         {
             var raceGenderClass = user.RaceGenderClass;
-            var comparer = new Helpers.ProjectingEqualityComparer<Skill, int>(x => x.Id);
-            foreach (var rgc2 in raceGenderClass.Fallbacks())
+            foreach (var rgc in raceGenderClass.Fallbacks())
             {
-                if (!_userSkilldata.ContainsKey(rgc2))
+                if (!_userSkilldata.ContainsKey(rgc))
                     continue;
 
-                var searchSkill = new UserSkill(skillId, raceGenderClass, null);
-
-                var index = _userSkilldata[rgc2].BinarySearch(searchSkill, comparer);
-                if (index < 0)
-                    index = ~index - 1;
-                if (index < 0)
+                UserSkillInfo skill;
+                if(!_userSkilldata[rgc].TryGetValue(skillId, out skill))
                     continue;
 
-                var item = _userSkilldata[rgc2][index];
-                return item;
+                return skill;
             }
             return null;
         }
 
-        public UserSkill GetOrPlaceholder(UserEntity user, int skillId)
+        private UserSkillInfo GetOrPlaceholder(UserEntity user, int skillId)
         {
             if (user == null)
                 throw new ArgumentNullException("user");
 
-            var existing = Get(user, skillId);
+            var existing = GetOrNull(user, skillId);
             if (existing != null)
                 return existing;
 
-            return new UserSkill(skillId, user.RaceGenderClass, "Unknown " + skillId);
+            return new UserSkillInfo(skillId, user.RaceGenderClass, "Unknown " + skillId);
         }
 
         public string GetName(UserEntity user, int skillId)

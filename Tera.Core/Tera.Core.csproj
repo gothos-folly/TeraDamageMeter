@@ -37,13 +37,15 @@
     <Compile Include="Game\Angle.cs" />
     <Compile Include="Game\IHasOwner.cs" />
     <Compile Include="Game\Messages\Server\StartUserProjectileServerMessage.cs" />
+    <Compile Include="Game\NpcInfo.cs" />
     <Compile Include="Game\PlaceHolderEntity.cs" />
     <Compile Include="Game\Player.cs" />
     <Compile Include="Game\Region.cs" />
     <Compile Include="Game\Server.cs" />
     <Compile Include="Game\Services\Helpers.cs" />
+    <Compile Include="Game\Services\NpcDatabase.cs" />
     <Compile Include="Game\Services\PlayerTracker.cs" />
-    <Compile Include="Game\Skill.cs" />
+    <Compile Include="Game\SkillInfo.cs" />
     <Compile Include="Game\Gender.cs" />
     <Compile Include="Game\Messages\Server\LoginServerMessage.cs" />
     <Compile Include="Game\PlayerClass.cs" />

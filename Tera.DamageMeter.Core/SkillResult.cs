@@ -21,7 +21,7 @@ namespace Tera.DamageMeter
         public bool IsHeal { get; private set; }
 
         public int SkillId { get; private set; }
-        public Skill Skill { get; private set; }
+        public SkillInfo Skill { get; private set; }
         public int Damage { get { return IsHeal ? 0 : Amount; } }
         public int Heal { get { return IsHeal ? Amount : 0; } }
 
@@ -39,12 +39,12 @@ namespace Tera.DamageMeter
 
             Source = entityRegistry.GetOrPlaceholder(message.Source);
             Target = entityRegistry.GetOrPlaceholder(message.Target);
-            var sourceUser = UserEntity.ForEntity(Source); // Attribute damage dealt by owned entities to the owner
+            var sourceUser = Source.RootOwner as UserEntity; // Attribute damage dealt by owned entities to the owner
             var targetUser = Target as UserEntity; // But don't attribute damage received by owned entities to the owner
 
             if (sourceUser != null)
             {
-                Skill = skillDatabase.Get(sourceUser, message.SkillId);
+                Skill = skillDatabase.GetOrNull(sourceUser, message.SkillId);
                 SourcePlayer = playerTracker.Get(sourceUser.PlayerId);
             }
 

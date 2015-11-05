@@ -24,8 +24,8 @@ namespace NetworkSniffer
             {
                 if (_enabled != value)
                 {
-                    _enabled = value;
                     SetEnabled(value);
+                    _enabled = value;
                 }
             }
         }
