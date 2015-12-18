@@ -168,6 +168,7 @@
 11100 Common Common Berserker Combo Attack XI
 11200 Common Common Berserker Combo Attack XII
 20100 Common Common Berserker Axe Block
+20200 Common Common Berserker Axe Block II
 30100 Common Common Berserker Thunder Strike I
 30200 Common Common Berserker Thunder Strike II
 30300 Common Common Berserker Thunder Strike III
@@ -202,6 +203,7 @@
 80300 Common Common Berserker Fiery Rage III
 80400 Common Common Berserker Fiery Rage IV
 80500 Common Common Berserker Fiery Rage V
+80600 Common Common Berserker Fiery Rage VI
 90100 Common Common Berserker Triumphant Shout I
 90200 Common Common Berserker Triumphant Shout II
 100100 Common Common Berserker Cyclone I
@@ -230,6 +232,7 @@
 120500 Common Common Berserker Unchained Anger V
 120600 Common Common Berserker Unchained Anger VI
 120700 Common Common Berserker Unchained Anger VII
+120800 Common Common Berserker Unchained Anger VIII
 130100 Common Common Berserker Retaliate I
 130200 Common Common Berserker Retaliate II
 130300 Common Common Berserker Retaliate III
@@ -275,6 +278,364 @@
 250100 Common Common Berserker Raze
 260100 Common Common Berserker Tackle
 270100 Common Common Berserker Unbreakable
+280100 Common Common Berserker Intimidation
+290100 Common Common Berserker Evasive Roll
+300100 Common Common Berserker Axe Counter
+310100 Common Common Berserker Overwhelm
+320100 Common Common Berserker Punishing Strike
+10100 Common Common Brawler Punch I
+10101 Common Common Brawler Punch I
+10102 Common Common Brawler Punch I
+10103 Common Common Brawler Punch I
+10200 Common Common Brawler Punch II
+10201 Common Common Brawler Punch II
+10202 Common Common Brawler Punch II
+10203 Common Common Brawler Punch II
+10300 Common Common Brawler Punch III
+10301 Common Common Brawler Punch III
+10302 Common Common Brawler Punch III
+10303 Common Common Brawler Punch III
+10400 Common Common Brawler Punch IV
+10401 Common Common Brawler Punch IV
+10402 Common Common Brawler Punch IV
+10403 Common Common Brawler Punch IV
+10500 Common Common Brawler Punch V
+10501 Common Common Brawler Punch V
+10502 Common Common Brawler Punch V
+10503 Common Common Brawler Punch V
+10600 Common Common Brawler Punch VI
+10601 Common Common Brawler Punch VI
+10602 Common Common Brawler Punch VI
+10603 Common Common Brawler Punch VI
+10700 Common Common Brawler Punch VII
+10701 Common Common Brawler Punch VII
+10702 Common Common Brawler Punch VII
+10703 Common Common Brawler Punch VII
+10800 Common Common Brawler Punch VIII
+10801 Common Common Brawler Punch VIII
+10802 Common Common Brawler Punch VIII
+10803 Common Common Brawler Punch VIII
+10900 Common Common Brawler Punch IX
+10901 Common Common Brawler Punch IX
+10902 Common Common Brawler Punch IX
+10903 Common Common Brawler Punch IX
+11000 Common Common Brawler Punch X
+11001 Common Common Brawler Punch X
+11002 Common Common Brawler Punch X
+11003 Common Common Brawler Punch X
+11100 Common Common Brawler Punch XI
+11101 Common Common Brawler Punch XI
+11102 Common Common Brawler Punch XI
+11103 Common Common Brawler Punch XI
+11200 Common Common Brawler Punch XII
+11201 Common Common Brawler Punch XII
+11202 Common Common Brawler Punch XII
+11203 Common Common Brawler Punch XII
+20100 Common Common Brawler Counter I
+20101 Common Common Brawler Counter I
+20102 Common Common Brawler Counter I
+20103 Common Common Brawler Counter I
+20104 Common Common Brawler Counter I
+20200 Common Common Brawler Counter II
+20201 Common Common Brawler Counter II
+20202 Common Common Brawler Counter II
+20203 Common Common Brawler Counter II
+20204 Common Common Brawler Counter II
+20300 Common Common Brawler Counter III
+20301 Common Common Brawler Counter III
+20302 Common Common Brawler Counter III
+20303 Common Common Brawler Counter III
+20304 Common Common Brawler Counter III
+20400 Common Common Brawler Counter IV
+20401 Common Common Brawler Counter IV
+20402 Common Common Brawler Counter IV
+20403 Common Common Brawler Counter IV
+20404 Common Common Brawler Counter IV
+20500 Common Common Brawler Counter V
+20501 Common Common Brawler Counter V
+20502 Common Common Brawler Counter V
+20503 Common Common Brawler Counter V
+20504 Common Common Brawler Counter V
+20600 Common Common Brawler Counter VI
+20601 Common Common Brawler Counter VI
+20602 Common Common Brawler Counter VI
+20603 Common Common Brawler Counter VI
+20604 Common Common Brawler Counter VI
+20700 Common Common Brawler Counter VII
+20701 Common Common Brawler Counter VII
+20702 Common Common Brawler Counter VII
+20703 Common Common Brawler Counter VII
+20704 Common Common Brawler Counter VII
+20800 Common Common Brawler Counter VIII
+20801 Common Common Brawler Counter VIII
+20802 Common Common Brawler Counter VIII
+20803 Common Common Brawler Counter VIII
+20804 Common Common Brawler Counter VIII
+20900 Common Common Brawler Counter IX
+20901 Common Common Brawler Counter IX
+20902 Common Common Brawler Counter IX
+20903 Common Common Brawler Counter IX
+20904 Common Common Brawler Counter IX
+21000 Common Common Brawler Counter X
+21001 Common Common Brawler Counter X
+21002 Common Common Brawler Counter X
+21003 Common Common Brawler Counter X
+21004 Common Common Brawler Counter X
+21100 Common Common Brawler Counter XI
+21101 Common Common Brawler Counter XI
+21102 Common Common Brawler Counter XI
+21103 Common Common Brawler Counter XI
+21104 Common Common Brawler Counter XI
+21200 Common Common Brawler Counter XII
+21201 Common Common Brawler Counter XII
+21202 Common Common Brawler Counter XII
+21203 Common Common Brawler Counter XII
+21204 Common Common Brawler Counter XII
+30100 Common Common Brawler Divine Wrath I
+30200 Common Common Brawler Divine Wrath II
+40100 Common Common Brawler Ground Pounder I
+40200 Common Common Brawler Ground Pounder II
+40300 Common Common Brawler Ground Pounder III
+40400 Common Common Brawler Ground Pounder IV
+40500 Common Common Brawler Ground Pounder V
+40600 Common Common Brawler Ground Pounder VI
+40700 Common Common Brawler Ground Pounder VII
+40800 Common Common Brawler Ground Pounder VIII
+40900 Common Common Brawler Ground Pounder IX
+41000 Common Common Brawler Ground Pounder X
+50100 Common Common Brawler Bull Rush I
+50200 Common Common Brawler Bull Rush II
+50300 Common Common Brawler Bull Rush III
+50400 Common Common Brawler Bull Rush IV
+50500 Common Common Brawler Bull Rush V
+50600 Common Common Brawler Bull Rush VI
+50700 Common Common Brawler Bull Rush VII
+50800 Common Common Brawler Bull Rush VIII
+50900 Common Common Brawler Bull Rush IX
+60100 Common Common Brawler Haymaker I
+60101 Common Common Brawler Haymaker I
+60102 Common Common Brawler Haymaker I
+60130 Common Common Brawler Haymaker I
+60200 Common Common Brawler Haymaker II
+60201 Common Common Brawler Haymaker II
+60202 Common Common Brawler Haymaker II
+60230 Common Common Brawler Haymaker II
+60300 Common Common Brawler Haymaker III
+60301 Common Common Brawler Haymaker III
+60302 Common Common Brawler Haymaker III
+60330 Common Common Brawler Haymaker III
+60400 Common Common Brawler Haymaker IV
+60401 Common Common Brawler Haymaker IV
+60402 Common Common Brawler Haymaker IV
+60430 Common Common Brawler Haymaker IV
+60500 Common Common Brawler Haymaker V
+60501 Common Common Brawler Haymaker V
+60502 Common Common Brawler Haymaker V
+60530 Common Common Brawler Haymaker V
+60600 Common Common Brawler Haymaker VI
+60601 Common Common Brawler Haymaker VI
+60602 Common Common Brawler Haymaker VI
+60630 Common Common Brawler Haymaker VI
+60700 Common Common Brawler Haymaker VII
+60701 Common Common Brawler Haymaker VII
+60702 Common Common Brawler Haymaker VII
+60730 Common Common Brawler Haymaker VII
+60800 Common Common Brawler Haymaker VIII
+60801 Common Common Brawler Haymaker VIII
+60802 Common Common Brawler Haymaker VIII
+60830 Common Common Brawler Haymaker VIII
+60900 Common Common Brawler Haymaker IX
+60901 Common Common Brawler Haymaker IX
+60902 Common Common Brawler Haymaker IX
+60930 Common Common Brawler Haymaker IX
+61000 Common Common Brawler Haymaker X
+61001 Common Common Brawler Haymaker X
+61002 Common Common Brawler Haymaker X
+61030 Common Common Brawler Haymaker X
+61100 Common Common Brawler Haymaker XI
+61101 Common Common Brawler Haymaker XI
+61102 Common Common Brawler Haymaker XI
+61130 Common Common Brawler Haymaker XI
+70100 Common Common Brawler Roundhouse Kick I
+70130 Common Common Brawler Roundhouse Kick I
+70200 Common Common Brawler Roundhouse Kick II
+70230 Common Common Brawler Roundhouse Kick II
+70300 Common Common Brawler Roundhouse Kick III
+70330 Common Common Brawler Roundhouse Kick III
+70400 Common Common Brawler Roundhouse Kick IV
+70430 Common Common Brawler Roundhouse Kick IV
+70500 Common Common Brawler Roundhouse Kick V
+70530 Common Common Brawler Roundhouse Kick V
+70600 Common Common Brawler Roundhouse Kick VI
+70630 Common Common Brawler Roundhouse Kick VI
+70700 Common Common Brawler Roundhouse Kick VII
+70730 Common Common Brawler Roundhouse Kick VII
+70800 Common Common Brawler Roundhouse Kick VIII
+70830 Common Common Brawler Roundhouse Kick VIII
+70900 Common Common Brawler Roundhouse Kick IX
+70930 Common Common Brawler Roundhouse Kick IX
+71000 Common Common Brawler Roundhouse Kick X
+71030 Common Common Brawler Roundhouse Kick X
+71100 Common Common Brawler Roundhouse Kick XI
+71130 Common Common Brawler Roundhouse Kick XI
+71200 Common Common Brawler Roundhouse Kick XII
+71230 Common Common Brawler Roundhouse Kick XII
+80100 Common Common Brawler Piledriver I
+80101 Common Common Brawler Piledriver I
+80102 Common Common Brawler Piledriver I
+80130 Common Common Brawler Piledriver I
+80200 Common Common Brawler Piledriver II
+80201 Common Common Brawler Piledriver II
+80202 Common Common Brawler Piledriver II
+80230 Common Common Brawler Piledriver II
+80300 Common Common Brawler Piledriver III
+80301 Common Common Brawler Piledriver III
+80302 Common Common Brawler Piledriver III
+80330 Common Common Brawler Piledriver III
+80400 Common Common Brawler Piledriver IV
+80401 Common Common Brawler Piledriver IV
+80402 Common Common Brawler Piledriver IV
+80430 Common Common Brawler Piledriver IV
+80500 Common Common Brawler Piledriver V
+80501 Common Common Brawler Piledriver V
+80502 Common Common Brawler Piledriver V
+80530 Common Common Brawler Piledriver V
+80600 Common Common Brawler Piledriver VI
+80601 Common Common Brawler Piledriver VI
+80602 Common Common Brawler Piledriver VI
+80630 Common Common Brawler Piledriver VI
+80700 Common Common Brawler Piledriver VII
+80701 Common Common Brawler Piledriver VII
+80702 Common Common Brawler Piledriver VII
+80730 Common Common Brawler Piledriver VII
+80800 Common Common Brawler Piledriver VIII
+80801 Common Common Brawler Piledriver VIII
+80802 Common Common Brawler Piledriver VIII
+80830 Common Common Brawler Piledriver VIII
+80900 Common Common Brawler Piledriver IX
+80901 Common Common Brawler Piledriver IX
+80902 Common Common Brawler Piledriver IX
+80930 Common Common Brawler Piledriver IX
+81000 Common Common Brawler Piledriver X
+81001 Common Common Brawler Piledriver X
+81002 Common Common Brawler Piledriver X
+81030 Common Common Brawler Piledriver X
+81100 Common Common Brawler Piledriver XI
+81101 Common Common Brawler Piledriver XI
+81102 Common Common Brawler Piledriver XI
+81130 Common Common Brawler Piledriver XI
+90100 Common Common Brawler Jackhammer I
+90101 Common Common Brawler Jackhammer I
+90102 Common Common Brawler Jackhammer I
+90130 Common Common Brawler Jackhammer I
+90200 Common Common Brawler Jackhammer II
+90201 Common Common Brawler Jackhammer II
+90202 Common Common Brawler Jackhammer II
+90230 Common Common Brawler Jackhammer II
+90300 Common Common Brawler Jackhammer III
+90301 Common Common Brawler Jackhammer III
+90302 Common Common Brawler Jackhammer III
+90330 Common Common Brawler Jackhammer III
+90400 Common Common Brawler Jackhammer IV
+90401 Common Common Brawler Jackhammer IV
+90402 Common Common Brawler Jackhammer IV
+90430 Common Common Brawler Jackhammer IV
+90500 Common Common Brawler Jackhammer V
+90501 Common Common Brawler Jackhammer V
+90502 Common Common Brawler Jackhammer V
+90530 Common Common Brawler Jackhammer V
+90600 Common Common Brawler Jackhammer VI
+90601 Common Common Brawler Jackhammer VI
+90602 Common Common Brawler Jackhammer VI
+90630 Common Common Brawler Jackhammer VI
+90700 Common Common Brawler Jackhammer VII
+90701 Common Common Brawler Jackhammer VII
+90702 Common Common Brawler Jackhammer VII
+90730 Common Common Brawler Jackhammer VII
+90800 Common Common Brawler Jackhammer VIII
+90801 Common Common Brawler Jackhammer VIII
+90802 Common Common Brawler Jackhammer VIII
+90830 Common Common Brawler Jackhammer VIII
+90900 Common Common Brawler Jackhammer IX
+90901 Common Common Brawler Jackhammer IX
+90902 Common Common Brawler Jackhammer IX
+90930 Common Common Brawler Jackhammer IX
+91000 Common Common Brawler Jackhammer X
+91001 Common Common Brawler Jackhammer X
+91002 Common Common Brawler Jackhammer X
+91030 Common Common Brawler Jackhammer X
+91100 Common Common Brawler Jackhammer XI
+91101 Common Common Brawler Jackhammer XI
+91102 Common Common Brawler Jackhammer XI
+91130 Common Common Brawler Jackhammer XI
+100100 Common Common Brawler Counterpunch I
+100200 Common Common Brawler Counterpunch II
+100300 Common Common Brawler Counterpunch III
+100400 Common Common Brawler Counterpunch IV
+100500 Common Common Brawler Counterpunch V
+100600 Common Common Brawler Counterpunch VI
+100700 Common Common Brawler Counterpunch VII
+100800 Common Common Brawler Counterpunch VIII
+100900 Common Common Brawler Counterpunch IX
+120100 Common Common Brawler Retaliate I
+120200 Common Common Brawler Retaliate II
+120300 Common Common Brawler Retaliate III
+120400 Common Common Brawler Retaliate IV
+120500 Common Common Brawler Retaliate V
+120600 Common Common Brawler Retaliate VI
+120700 Common Common Brawler Retaliate VII
+120800 Common Common Brawler Retaliate VIII
+120900 Common Common Brawler Retaliate IX
+121000 Common Common Brawler Retaliate X
+130100 Common Common Brawler Provoke I
+130200 Common Common Brawler Provoke II
+130300 Common Common Brawler Provoke III
+130400 Common Common Brawler Provoke IV
+130500 Common Common Brawler Provoke V
+130600 Common Common Brawler Provoke VI
+130700 Common Common Brawler Provoke VII
+130800 Common Common Brawler Provoke VIII
+130900 Common Common Brawler Provoke XI
+140100 Common Common Brawler Infuriate
+150100 Common Common Brawler High Kick I
+150200 Common Common Brawler High Kick II
+150300 Common Common Brawler High Kick III
+150400 Common Common Brawler High Kick IV
+150500 Common Common Brawler High Kick V
+150600 Common Common Brawler High Kick VI
+150700 Common Common Brawler High Kick VII
+150800 Common Common Brawler High Kick VIII
+150900 Common Common Brawler High Kick IX
+151000 Common Common Brawler High Kick X
+160100 Common Common Brawler Flip Kick I
+160200 Common Common Brawler Flip Kick II
+160300 Common Common Brawler Flip Kick III
+160400 Common Common Brawler Flip Kick IV
+160500 Common Common Brawler Flip Kick V
+170100 Common Common Brawler Rampage I
+170200 Common Common Brawler Rampage II
+170300 Common Common Brawler Rampage III
+170400 Common Common Brawler Rampage IV
+170500 Common Common Brawler Rampage V
+170600 Common Common Brawler Rampage VI
+170700 Common Common Brawler Rampage VII
+170800 Common Common Brawler Rampage VIII
+170900 Common Common Brawler Rampage IX
+171000 Common Common Brawler Rampage X
+180100 Common Common Brawler Growing Fury
+190100 Common Common Brawler Invigorating Rage
+200100 Common Common Brawler Meat Grinder I
+200200 Common Common Brawler Meat Grinder II
+200300 Common Common Brawler Meat Grinder III
+200400 Common Common Brawler Meat Grinder IV
+200500 Common Common Brawler Meat Grinder V
+200600 Common Common Brawler Meat Grinder VI
+200700 Common Common Brawler Meat Grinder VII
+200800 Common Common Brawler Meat Grinder VIII
+200900 Common Common Brawler Meat Grinder IX
+201000 Common Common Brawler Meat Grinder X
+210100 Common Common Brawler Mounting Rage
+400100 Common Common Brawler Quick Dash
 4999 Common Common Common Self-Destruct
 111111 Common Common Common Summon: Bay Gelding
 111112 Common Common Common Summon: Fast Bay Gelding
@@ -356,8 +717,6 @@
 111197 Common Common Common Summon: Jeweled Lion
 111198 Common Common Common Summon: Tawny Huntress
 111199 Common Common Common Summon: Black Leopard
-111200 Common Common Common Summon: Waddles
-111201 Common Common Common Summon: Harry Porker
 111202 Common Common Common Summon: Bound Night Mare
 111203 Common Common Common Summon: Petunia
 111204 Common Common Common Summon: Lupus Obscurus
@@ -370,12 +729,7 @@
 111211 Common Common Common Summon: Bengal Tiger
 111212 Common Common Common Summon: Battle Ready Bengal Tiger
 111213 Common Common Common Summon: Lupus Argentum
-111214 Common Common Common 
-111215 Common Common Common 
-111216 Common Common Common 
 111217 Common Common Common Summon: Lupus Noctus
-111218 Common Common Common 
-111219 Common Common Common 
 111220 Common Common Common Summon: Lupus Obscurus
 111221 Common Common Common Summon: Blitzheart
 111222 Common Common Common Summon: Temperheart
@@ -396,7 +750,6 @@
 111237 Common Common Common Summon: Tireless Saolo
 111238 Common Common Common Summon: Paolo
 111239 Common Common Common Summon: Energetic Paolo
-111240 Common Common Common Summon: Tough Paolo
 111241 Common Common Common Summon: Tireless Paolo
 111242 Common Common Common Summon: Tigerinho
 111243 Common Common Common Summon: Energetic Tigerinho
@@ -462,6 +815,9 @@
 200001 Common Common Common Outlaw Declaration
 200002 Common Common Common Outlaw Declaration
 200003 Common Common Common Murderous Intent
+200010 Common Common Common Dark Wings
+200011 Common Common Common Dark Souls
+200012 Common Common Common Dark Hearts
 211141 Common Common Common Summon: Rainbow
 211145 Common Common Common Summon: Death Charger
 211150 Common Common Common Summon: Snowdrift
@@ -511,7 +867,52 @@
 1111538 Common Common Common Summon: Lupus Aeris
 1111539 Common Common Common Summon: Lupus Noctus
 1111540 Common Common Common Summon: Lupus Argentum
+1111541 Common Common Common Summon: Aeolian Zebra
+1111542 Common Common Common [Event] Summon: Glimmer
+1111543 Common Common Common Summon White Tiger
+1111544 Common Common Common Summon Roaring Armored White Tiger
+1111545 Common Common Common Summon Fierce Tiger
+1111546 Common Common Common Summon Roaring Armored Fierce Tiger
+1111547 Common Common Common Summon: Soccer Mania Supporter Tiger
+1111548 Common Common Common Summon: Soccer Mania Supporter White Tiger
+1111549 Common Common Common Summon: Soccer Mania Giant Korean Tiger us
+1111550 Common Common Common Summon: Soccer Mania Giant Korean White Tiger us
+1111551 Common Common Common Summon: Tamed Arborean Black Steed
+1111552 Common Common Common Summon: Quackerjack
+1111553 Common Common Common Summon: Duckerberg
+1111554 Common Common Common Summon: Quacklemore
+1111555 Common Common Common Summon: Dafi
+1111556 Common Common Common Summon: Blue Ookami
+1111557 Common Common Common Summon: Red Ookami
+1111558 Common Common Common [Previous Benefit] Summon: Rainbow
+1111559 Common Common Common [Invite A Friend Event] Summon: Lioness
+1111560 Common Common Common Summon: Police Car
+1111561 Common Common Common Summon: Crimsonheart
+1111562 Common Common Common Summon: Jeweled Lion (15 Days)
+1111563 Common Common Common Summon: Crimson
+1111564 Common Common Common Summon: Portersprint
+1111565 Common Common Common Summon: Blithespring
+1111566 Common Common Common Summon: Wintera Snowbite
+1111567 Common Common Common Summon: Christmas Kumas
+1111568 Common Common Common Summon: Snowbite
+1111573 Common Common Common Summon: Jade 
 1111651 Common Common Common Summon: Ember
+1111911 Common Common Common Summon: Shadow Steed
+1111921 Common Common Common Summon: Electrum Wind
+1111961 Common Common Common Summon: Death Charger
+1112001 Common Common Common Summon: Soccer Mania Southern Tiger
+1112002 Common Common Common Summon: Soccer Mania Southern White Tiger
+1112003 Common Common Common Summon: Soccer Mania Giant Brazilian Tiger
+1112004 Common Common Common Summon: Soccer Mania Giant White Brazilian Tiger
+1701270 Common Common Common Summon: Glory
+1701271 Common Common Common Summon: Snarl
+1701272 Common Common Common Summon: Paddy
+1701273 Common Common Common Summon: Aurum 
+1701274 Common Common Common Summon: Snowball Kumas
+1701275 Common Common Common Summon: Brass Kumas
+1701276 Common Common Common Summon: Snowball Giant Snowman
+1701277 Common Common Common Summon: Santa Kumas
+1701279 Common Common Common Summon: Rudolf the Giant Snowman
 2222537 Common Common Common Summon: Lupus Aurum
 2222538 Common Common Common Summon: Lupus Aeris
 2222539 Common Common Common Summon: Lupus Noctus
@@ -688,6 +1089,12 @@
 3333021 Common Common Common Summon Pet: Pinkie
 3333022 Common Common Common Summon Pet: Bonzai
 3333023 Common Common Common Summon Pet: Addams
+3333024 Common Common Common Summon Pet: Rusty
+3333025 Common Common Common Summon Pet: Rainie
+3333026 Common Common Common Summon Pet: Bonzai
+3333027 Common Common Common Summon Pet: Addams
+3333028 Common Common Common Summon Pet: Rusty
+3333029 Common Common Common Summon Pet: Rainie
 6001000 Common Common Common Summon Pet: Miss Kitty
 6002000 Common Common Common Summon Pet: Willoe
 6003000 Common Common Common Summon Pet: Dundee
@@ -712,12 +1119,6 @@
 8400020 Common Common Common Summon: Fortuna
 8400030 Common Common Common Summon: Fides
 8400040 Common Common Common Summon: Virtus
-8400050 Common Common Common Summon: Brave Black Lion
-8400051 Common Common Common Summon: Loyal Black Lion
-8400060 Common Common Common Summon: Brave Black Steed
-8400061 Common Common Common Summon: Loyal Black Steed
-8400070 Common Common Common Summon: Glorious Black Lion
-8400080 Common Common Common Summon: Glorious Black Steed
 8500000 Common Common Common Summon: Brave Black Lion
 8500001 Common Common Common Summon: Loyal Black Lion
 8500002 Common Common Common Summon: Brave Black Steed
@@ -730,8 +1131,6 @@
 8500009 Common Common Common Summon: Loyal White Steed
 8500010 Common Common Common Summon: Glorious White Lion
 8500011 Common Common Common Summon: Glorious White Steed
-8500020 Common Common Common Summon: Glorious White Lion
-8500030 Common Common Common Summon: Glorious White Steed
 9010100 Aman Common Common Kaiator's Drums
 9010100 Baraka Common Common Core's Resonance
 9010100 Castanic Common Common Kaiator's Drums
@@ -746,6 +1145,20 @@
 9020100 Popori Common Common Soothing Presence
 9030100 Popori Common Common Horizon Run
 11117100 Common Common Common Summon Regulus
+12000014 Common Common Common Summon: Police Car
+12000015 Common Common Common Summon: Silver Giraffe
+12000016 Common Common Common Summon: Noble Buzzer
+12000017 Common Common Common Summon: Noble Tweedle
+12000018 Common Common Common Summon: Cutter (Rare)
+12000019 Common Common Common Summon: Buzzer 
+12000020 Common Common Common Summon: Tweedle 
+12000021 Common Common Common Summon: Cutter 
+12000022 Common Common Common Summon: Glimmerheart
+12300010 Common Common Common Summon Pet: Felicity
+14000001 Common Common Common Summon: Jadewing
+14000002 Common Common Common Summon: Mythical Jadewing
+14000003 Common Common Common Summon: Fabled Jadewing
+14000004 Common Common Common Summon: Legendary Jadewing
 14000005 Common Common Common Summon: Ebonwing
 14000006 Common Common Common Summon: Mythical Ebonwing
 14000007 Common Common Common Summon: Fabled Ebonwing
@@ -754,6 +1167,148 @@
 14000010 Common Common Common Summon: Mythical Silverwing
 14000011 Common Common Common Summon: Fabled Silverwing
 14000012 Common Common Common Summon: Legendary Silverwing
+14000013 Common Common Common Summon: Polar Bear
+14000014 Common Common Common Summon: Brave Polar Bear
+14000015 Common Common Common Summon: Tough Polar Bear
+14000016 Common Common Common Summon: Loyal Polar Bear
+14000017 Common Common Common Summon: Grizzly Bear
+14000018 Common Common Common Summon: Brave Grizzly Bear
+14000019 Common Common Common Summon: Tough Grizzly Bear
+14000020 Common Common Common Summon: Loyal Grizzly Bear
+14000021 Common Common Common Summon: Panda
+14000022 Common Common Common Summon: Brave Panda
+14000023 Common Common Common Summon: Tough Panda
+14000024 Common Common Common Summon: Loyal Panda
+14000028 Common Common Common Summon: Almighty Fyrewing
+14000029 Common Common Common Summon: Almighty Goldwing
+14000030 Common Common Common Summon: Almighty Jadewing
+14000031 Common Common Common Summon: Almighty Ebonwing
+14000032 Common Common Common Summon: Almighty Silverwing
+14000033 Common Common Common Summon: Almighty Frost Tail
+14000034 Common Common Common Summon: Almighty Ember Tail
+14000035 Common Common Common Summon: Mythical Gourmando
+14000036 Common Common Common Summon: Legendary Gourmando
+14000037 Common Common Common Summon: Fabled Munchhausen
+14000038 Common Common Common Summon: Legendary Munchhausen
+14000039 Common Common Common Summon: Eager Polar Bear
+14000040 Common Common Common Summon: Eager Grizzly Bear
+14000041 Common Common Common Summon: Eager Panda
+14000042 Common Common Common Summon: Sport GX800
+14000043 Common Common Common Summon: Tuned Sport GX800
+14000044 Common Common Common Summon: Polished Sport GX800
+14000045 Common Common Common Summon: Gassed-Up Sport GX800
+14000046 Common Common Common Summon: Sport SX800
+14000047 Common Common Common Summon: Tuned Sport SX800
+14000048 Common Common Common Summon: Polished Sport SX800
+14000049 Common Common Common Summon: Gassed-Up Sport SX800
+14000050 Common Common Common Summon: Sport RX800
+14000051 Common Common Common Summon: Tuned Sport RX800
+14000052 Common Common Common Summon: Polished Sport RX800
+14000053 Common Common Common Summon: Gassed-Up Sport RX800
+14000054 Common Common Common Summon: Sport GX800 Turbo
+14000055 Common Common Common Summon: Supercharged Police Car
+14000056 Common Common Common Summon: Terminus
+14000057 Common Common Common Summon: Mythical Terminus
+14000058 Common Common Common Summon: Fabled Terminus
+14000059 Common Common Common Summon: Legendary Terminus
+14000063 Common Common Common Jitterbug
+14000064 Common Common Common Mythical Jitterbug
+14000065 Common Common Common Fabled Jitterbug
+14000066 Common Common Common Legendary Jitterbug
+14000067 Common Common Common Almighty Jitterbug
+14000068 Common Common Common Humbug
+14000069 Common Common Common Mythical Humbug
+14000070 Common Common Common Fabled Humbug
+14000071 Common Common Common Legendary Humbug
+14000072 Common Common Common Almighty Humbug
+14000073 Common Common Common Litterbug
+14000074 Common Common Common Mythical Litterbug
+14000075 Common Common Common Fabled Litterbug
+14000076 Common Common Common Legendary Litterbug
+14000077 Common Common Common Almighty Litterbug
+14000093 Common Common Common Summon: Obsidian Tail
+14000094 Common Common Common Summon: Mythical Obsidian Tail
+14000095 Common Common Common Summon: Fabled Obsidian Tail
+14000096 Common Common Common Summon: Legendary Obsidian Tail
+14000097 Common Common Common Summon: Almighty Obsidian Tail
+14000098 Common Common Common Summon: Emerald Tail
+14000099 Common Common Common Summon: Mythical Emerald Tail
+14000100 Common Common Common Summon: Fabled Emerald Tail
+14000101 Common Common Common Summon: Legendary Emerald Tail
+14000102 Common Common Common Summon: Almighty Emerald Tail
+14000103 Common Common Common Summon: Pixie Dreams
+14000104 Common Common Common Summon: Mythical Pixie Dreams
+14000105 Common Common Common Summon: Fabled Pixie Dreams
+14000106 Common Common Common Summon: Legendary Pixie Dreams
+14000107 Common Common Common Summon: Almighty Pixie Dreams
+14000108 Common Common Common Summon: Midnight's Charger
+14000109 Common Common Common Summon: Mythical Midnight's Charger
+14000110 Common Common Common Summon: Fabled Midnight's Charger
+14000111 Common Common Common Summon: Legendary Midnight's Charger
+14000112 Common Common Common Summon: Almighty Midnight's Charger
+14000113 Common Common Common Summon: Spiritworld Steed
+14000114 Common Common Common Summon: Mythical Spiritworld Steed
+14000115 Common Common Common Summon: Fabled Spiritworld Steed
+14000116 Common Common Common Summon: Legendary Spiritworld Steed
+14000117 Common Common Common Summon: Almighty Spiritworld Steed
+14000118 Common Common Common Summon: Maki Kitty
+14000119 Common Common Common Summon: Frisky Maki Kitty
+14000120 Common Common Common Summon: Jaunty Maki Kitty
+14000121 Common Common Common Summon: Dapper Maki Kitty
+14000122 Common Common Common Summon: Almighty Maki Kitty
+14000123 Common Common Common Summon: Nigiri Kitty
+14000124 Common Common Common Summon: Frisky Nigiri Kitty
+14000125 Common Common Common Summon: Jaunty Nigiri Kitty
+14000126 Common Common Common Summon: Dapper Nigiri Kitty
+14000127 Common Common Common Summon: Almighty Nigiri Kitty
+14000128 Common Common Common Summon Pet: Golden Dragonette
+14000149 Common Common Common Summon Pet: Ebon Dragonette
+14000150 Common Common Common Summon Pet: Fyre Dragonette
+14000151 Common Common Common Summon Pet: Jade Dragonette
+14000152 Common Common Common Summon Pet: Silver Dragonette
+14000153 Common Common Common Sushi cat black
+14000154 Common Common Common Sushi cat black
+14000155 Common Common Common Sushi cat black
+14000156 Common Common Common Sushi cat black
+14000157 Common Common Common Sushi cat black
+14000158 Common Common Common Sushi cat brown
+14000159 Common Common Common Sushi cat brown
+14000160 Common Common Common Sushi cat brown
+14000161 Common Common Common Sushi cat brown
+14000162 Common Common Common Sushi cat brown
+14000163 Common Common Common Summon Pet: Dragonette Gold
+14000164 Common Common Common Summon Pet: Dragonette Black
+14000165 Common Common Common Summon Pet: Dragonette Red
+14000166 Common Common Common Summon Pet: Dragonette Green
+14000167 Common Common Common Summon Pet: Dragonette Silver
+14000168 Common Common Common Summon: Black Kitty
+14000169 Common Common Common Summon: Frisky Black Kitty
+14000170 Common Common Common Summon: Jaunty Black Kitty
+14000171 Common Common Common Summon: Dapper Black Kitty
+14000172 Common Common Common Summon: Almighty Black Kitty
+14000173 Common Common Common Summon: Brown Kitty
+14000174 Common Common Common Summon: Frisky Brown Kitty
+14000175 Common Common Common Summon: Jaunty Brown Kitty
+14000176 Common Common Common Summon: Dapper Brown Kitty
+14000177 Common Common Common Summon: Almighty Brown Kitty
+14000178 Common Common Common Summon: Gray Kitty
+14000179 Common Common Common Summon: Frisky Gray Kitty
+14000180 Common Common Common Summon: Jaunty Gray Kitty
+14000181 Common Common Common Summon: Dapper Gray Kitty
+14000182 Common Common Common Summon: Almighty Gray Kitty
+14000183 Common Common Common Summon: Oshi Kitty
+14000184 Common Common Common Summon: Frisky Oshi Kitty
+14000185 Common Common Common Summon: Jaunty Oshi Kitty
+14000186 Common Common Common Summon: Dapper Oshi Kitty
+14000187 Common Common Common Summon: Almighty Oshi Kitty
+14100001 Common Common Common Summon: Jadewing
+14100002 Common Common Common Summon: Jadewing
+14100003 Common Common Common Summon: Mythical Jadewing
+14100004 Common Common Common Summon: Mythical Jadewing
+14100005 Common Common Common Summon: Fabled Jadewing
+14100006 Common Common Common Summon: Fabled Jadewing
+14100007 Common Common Common Summon: Legendary Jadewing
+14100008 Common Common Common Summon: Legendary Jadewing
 14100009 Common Common Common Summon: Ebonwing
 14100010 Common Common Common Summon: Ebonwing
 14100011 Common Common Common Summon: Mythical Ebonwing
@@ -782,6 +1337,248 @@
 14100034 Common Common Common Summon: Lupus Aurum
 14100035 Common Common Common Summon: Lupus Aurum
 14100036 Common Common Common Summon: Lupus Aurum
+14100037 Common Common Common Summon: Polar Bear
+14100038 Common Common Common Summon: Polar Bear
+14100039 Common Common Common Summon: Brave Polar Bear
+14100040 Common Common Common Summon: Brave Polar Bear
+14100041 Common Common Common Summon: Tough Polar Bear
+14100042 Common Common Common Summon: Tough Polar Bear
+14100043 Common Common Common Summon: Loyal Polar Bear
+14100044 Common Common Common Summon: Loyal Polar Bear
+14100045 Common Common Common Summon: Grizzly Bear
+14100046 Common Common Common Summon: Grizzly Bear
+14100047 Common Common Common Summon: Brave Grizzly Bear
+14100048 Common Common Common Summon: Brave Grizzly Bear
+14100049 Common Common Common Summon: Tough Grizzly Bear
+14100050 Common Common Common Summon: Tough Grizzly Bear
+14100051 Common Common Common Summon: Loyal Grizzly Bear
+14100052 Common Common Common Summon: Loyal Grizzly Bear
+14100053 Common Common Common Summon: Panda
+14100054 Common Common Common Summon: Panda
+14100055 Common Common Common Summon: Brave Panda
+14100056 Common Common Common Summon: Brave Panda
+14100057 Common Common Common Summon: Tough Panda
+14100058 Common Common Common Summon: Tough Panda
+14100059 Common Common Common Summon: Loyal Panda
+14100060 Common Common Common Summon: Loyal Panda
+14100067 Common Common Common Summon: Almighty Fyrewing
+14100068 Common Common Common Summon: Almighty Goldwing
+14100069 Common Common Common Summon: Almighty Jadewing
+14100070 Common Common Common Summon: Almighty Ebonwing
+14100071 Common Common Common Summon: Almighty Silverwing
+14100072 Common Common Common Summon: Almighty Frost Tail
+14100073 Common Common Common Summon: Almighty Ember Tail
+14100074 Common Common Common Summon: Mythical Gourmando
+14100075 Common Common Common Summon: Legendary Gourmando
+14100076 Common Common Common Summon: Fabled Munchhausen
+14100077 Common Common Common Summon: Legendary Munchhausen
+14100078 Common Common Common Summon: Eager Polar Bear
+14100079 Common Common Common Summon: Eager Grizzly Bear
+14100080 Common Common Common Summon: Eager Panda
+14100081 Common Common Common Summon: Sport GX800
+14100082 Common Common Common Summon: Sport GX800
+14100083 Common Common Common Summon: Tuned Sport GX800
+14100084 Common Common Common Summon: Tuned Sport GX800
+14100085 Common Common Common Summon: Polished Sport GX800
+14100086 Common Common Common Summon: Polished Sport GX800
+14100087 Common Common Common Summon: Gassed-Up Sport GX800
+14100088 Common Common Common Summon: Gassed-Up Sport GX800
+14100089 Common Common Common Summon: Sport SX800
+14100090 Common Common Common Summon: Sport SX800
+14100091 Common Common Common Summon: Tuned Sport SX800
+14100092 Common Common Common Summon: Tuned Sport SX800
+14100093 Common Common Common Summon: Polished Sport SX800
+14100094 Common Common Common Summon: Polished Sport SX800
+14100095 Common Common Common Summon: Gassed-Up Sport SX800
+14100096 Common Common Common Summon: Gassed-Up Sport SX800
+14100097 Common Common Common Summon: Sport RX800
+14100098 Common Common Common Summon: Sport RX800
+14100099 Common Common Common Summon: Tuned Sport RX800
+14100100 Common Common Common Summon: Tuned Sport RX800
+14100101 Common Common Common Summon: Polished Sport RX800
+14100102 Common Common Common Summon: Polished Sport RX800
+14100103 Common Common Common Summon: Gassed-Up Sport RX800
+14100104 Common Common Common Summon: Gassed-Up Sport RX800
+14100105 Common Common Common Summon: Sport GX800 Turbo
+14100106 Common Common Common Summon: Supercharged Police Car
+14100107 Common Common Common Summon: Terminus
+14100108 Common Common Common Summon: Terminus
+14100109 Common Common Common Summon: Mythical Terminus
+14100110 Common Common Common Summon: Mythical Terminus
+14100111 Common Common Common Summon: Fabled Terminus
+14100112 Common Common Common Summon: Fabled Terminus
+14100113 Common Common Common Summon: Legendary Terminus
+14100114 Common Common Common Summon: Legendary Terminus
+14100121 Common Common Common Jitterbug
+14100122 Common Common Common Jitterbug
+14100123 Common Common Common Mythical Jitterbug
+14100124 Common Common Common Mythical Jitterbug
+14100125 Common Common Common Fabled Jitterbug
+14100126 Common Common Common Fabled Jitterbug
+14100127 Common Common Common Legendary Jitterbug
+14100128 Common Common Common Legendary Jitterbug
+14100129 Common Common Common Almighty Jitterbug
+14100130 Common Common Common Almighty Jitterbug
+14100131 Common Common Common Humbug
+14100132 Common Common Common Humbug
+14100133 Common Common Common Mythical Humbug
+14100134 Common Common Common Mythical Humbug
+14100135 Common Common Common Fabled Humbug
+14100136 Common Common Common Fabled Humbug
+14100137 Common Common Common Legendary Humbug
+14100138 Common Common Common Legendary Humbug
+14100139 Common Common Common Almighty Humbug
+14100140 Common Common Common Almighty Humbug
+14100141 Common Common Common Litterbug
+14100142 Common Common Common Litterbug
+14100143 Common Common Common Mythical Litterbug
+14100144 Common Common Common Mythical Litterbug
+14100145 Common Common Common Fabled Litterbug
+14100146 Common Common Common Fabled Litterbug
+14100147 Common Common Common Legendary Litterbug
+14100148 Common Common Common Legendary Litterbug
+14100149 Common Common Common Almighty Litterbug
+14100150 Common Common Common Almighty Litterbug
+14100181 Common Common Common Summon: Obsidian Tail
+14100182 Common Common Common Summon: Obsidian Tail
+14100183 Common Common Common Summon: Mythical Obsidian Tail
+14100184 Common Common Common Summon: Mythical Obsidian Tail
+14100185 Common Common Common Summon: Fabled Obsidian Tail
+14100186 Common Common Common Summon: Fabled Obsidian Tail
+14100187 Common Common Common Summon: Legendary Obsidian Tail
+14100188 Common Common Common Summon: Legendary Obsidian Tail
+14100189 Common Common Common Summon: Almighty Obsidian Tail
+14100190 Common Common Common Summon: Almighty Obsidian Tail
+14100191 Common Common Common Summon: Emerald Tail
+14100192 Common Common Common Summon: Emerald Tail
+14100193 Common Common Common Summon: Mythical Emerald Tail
+14100194 Common Common Common Summon: Mythical Emerald Tail
+14100195 Common Common Common Summon: Fabled Emerald Tail
+14100196 Common Common Common Summon: Fabled Emerald Tail
+14100197 Common Common Common Summon: Legendary Emerald Tail
+14100198 Common Common Common Summon: Legendary Emerald Tail
+14100199 Common Common Common Summon: Almighty Emerald Tail
+14100200 Common Common Common Summon: Almighty Emerald Tail
+14100201 Common Common Common Summon: Pixie Dreams
+14100202 Common Common Common Summon: Pixie Dreams
+14100203 Common Common Common Summon: Mythical Pixie Dreams
+14100204 Common Common Common Summon: Mythical Pixie Dreams
+14100205 Common Common Common Summon: Fabled Pixie Dreams
+14100206 Common Common Common Summon: Fabled Pixie Dreams
+14100207 Common Common Common Summon: Legendary Pixie Dreams
+14100208 Common Common Common Summon: Legendary Pixie Dreams
+14100209 Common Common Common Summon: Almighty Pixie Dreams
+14100210 Common Common Common Summon: Almighty Pixie Dreams
+14100211 Common Common Common Summon: Midnight's Charger
+14100212 Common Common Common Summon: Midnight's Charger
+14100213 Common Common Common Summon: Mythical Midnight's Charger
+14100214 Common Common Common Summon: Mythical Midnight's Charger
+14100215 Common Common Common Summon: Fabled Midnight's Charger
+14100216 Common Common Common Summon: Fabled Midnight's Charger
+14100217 Common Common Common Summon: Legendary Midnight's Charger
+14100218 Common Common Common Summon: Legendary Midnight's Charger
+14100219 Common Common Common Summon: Almighty Midnight's Charger
+14100220 Common Common Common Summon: Almighty Midnight's Charger
+14100221 Common Common Common Summon: Spiritworld Steed
+14100222 Common Common Common Summon: Spiritworld Steed
+14100223 Common Common Common Summon: Mythical Spiritworld Steed
+14100224 Common Common Common Summon: Mythical Spiritworld Steed
+14100225 Common Common Common Summon: Fabled Spiritworld Steed
+14100226 Common Common Common Summon: Fabled Spiritworld Steed
+14100227 Common Common Common Summon: Legendary Spiritworld Steed
+14100228 Common Common Common Summon: Legendary Spiritworld Steed
+14100229 Common Common Common Summon: Almighty Spiritworld Steed
+14100230 Common Common Common Summon: Almighty Spiritworld Steed
+14100231 Common Common Common Summon: Maki Kitty
+14100232 Common Common Common Summon: Maki Kitty
+14100233 Common Common Common Summon: Frisky Maki Kitty
+14100234 Common Common Common Summon: Frisky Maki Kitty
+14100235 Common Common Common Summon: Jaunty Maki Kitty
+14100236 Common Common Common Summon: Jaunty Maki Kitty
+14100237 Common Common Common Summon: Dapper Maki Kitty
+14100238 Common Common Common Summon: Dapper Maki Kitty
+14100239 Common Common Common Summon: Almighty Maki Kitty
+14100240 Common Common Common Summon: Almighty Maki Kitty
+14100241 Common Common Common Summon: Nigiri Kitty
+14100242 Common Common Common Summon: Nigiri Kitty
+14100243 Common Common Common Summon: Frisky Nigiri Kitty
+14100244 Common Common Common Summon: Frisky Nigiri Kitty
+14100245 Common Common Common Summon: Jaunty Nigiri Kitty
+14100246 Common Common Common Summon: Jaunty Nigiri Kitty
+14100247 Common Common Common Summon: Dapper Nigiri Kitty
+14100248 Common Common Common Summon: Dapper Nigiri Kitty
+14100249 Common Common Common Summon: Almighty Nigiri Kitty
+14100250 Common Common Common Summon: Almighty Nigiri Kitty
+14100251 Common Common Common Summon Pet: Golden Dragonette
+14100292 Common Common Common Summon Pet: Ebon Dragonette
+14100293 Common Common Common Summon Pet: Fyre Dragonette
+14100294 Common Common Common Summon Pet: Jade Dragonette
+14100295 Common Common Common Summon Pet: Silver Dragonette
+14100296 Common Common Common Sushi cat black
+14100297 Common Common Common Sushi cat black
+14100298 Common Common Common Sushi cat black
+14100299 Common Common Common Sushi cat black
+14100300 Common Common Common Sushi cat black
+14100301 Common Common Common Sushi cat black
+14100302 Common Common Common Sushi cat black
+14100303 Common Common Common Sushi cat black
+14100304 Common Common Common Sushi cat black
+14100305 Common Common Common Sushi cat black
+14100306 Common Common Common Sushi cat brown
+14100307 Common Common Common Sushi cat brown
+14100308 Common Common Common Sushi cat brown
+14100309 Common Common Common Sushi cat brown
+14100310 Common Common Common Sushi cat brown
+14100311 Common Common Common Sushi cat brown
+14100312 Common Common Common Sushi cat brown
+14100313 Common Common Common Sushi cat brown
+14100314 Common Common Common Sushi cat brown
+14100315 Common Common Common Sushi cat brown
+14100316 Common Common Common Summon Pet: Dragonette Gold
+14100317 Common Common Common Summon Pet: Dragonette Black
+14100318 Common Common Common Summon Pet: Dragonette Red
+14100319 Common Common Common Summon Pet: Dragonette Green
+14100320 Common Common Common Summon Pet: Dragonette Silver
+14100321 Common Common Common Summon: Black Kitty
+14100322 Common Common Common Summon: Black Kitty
+14100323 Common Common Common Summon: Frisky Black Kitty
+14100324 Common Common Common Summon: Frisky Black Kitty
+14100325 Common Common Common Summon: Jaunty Black Kitty
+14100326 Common Common Common Summon: Jaunty Black Kitty
+14100327 Common Common Common Summon: Dapper Black Kitty
+14100328 Common Common Common Summon: Dapper Black Kitty
+14100329 Common Common Common Summon: Almighty Black Kitty
+14100330 Common Common Common Summon: Almighty Black Kitty
+14100331 Common Common Common Summon: Brown Kitty
+14100332 Common Common Common Summon: Brown Kitty
+14100333 Common Common Common Summon: Frisky Brown Kitty
+14100334 Common Common Common Summon: Frisky Brown Kitty
+14100335 Common Common Common Summon: Jaunty Brown Kitty
+14100336 Common Common Common Summon: Jaunty Brown Kitty
+14100337 Common Common Common Summon: Dapper Brown Kitty
+14100338 Common Common Common Summon: Dapper Brown Kitty
+14100339 Common Common Common Summon: Almighty Brown Kitty
+14100340 Common Common Common Summon: Almighty Brown Kitty
+14100341 Common Common Common Summon: Gray Kitty
+14100342 Common Common Common Summon: Gray Kitty
+14100343 Common Common Common Summon: Frisky Gray Kitty
+14100344 Common Common Common Summon: Frisky Gray Kitty
+14100345 Common Common Common Summon: Jaunty Gray Kitty
+14100346 Common Common Common Summon: Jaunty Gray Kitty
+14100347 Common Common Common Summon: Dapper Gray Kitty
+14100348 Common Common Common Summon: Dapper Gray Kitty
+14100349 Common Common Common Summon: Almighty Brown Kitty
+14100350 Common Common Common Summon: Almighty Brown Kitty
+14100351 Common Common Common Summon: Oshi Kitty
+14100352 Common Common Common Summon: Oshi Kitty
+14100353 Common Common Common Summon: Frisky Oshi Kitty
+14100354 Common Common Common Summon: Frisky Oshi Kitty
+14100355 Common Common Common Summon: Jaunty Oshi Kitty
+14100356 Common Common Common Summon: Jaunty Oshi Kitty
+14100357 Common Common Common Summon: Dapper Oshi Kitty
+14100358 Common Common Common Summon: Dapper Oshi Kitty
+14100359 Common Common Common Summon: Almighty Oshi Kitty
+14100360 Common Common Common Summon: Almighty Oshi Kitty
 14300002 Common Common Common Summon: Truffles
 14300003 Common Common Common Summon: Truffles
 14300004 Common Common Common Summon: Truffles
@@ -794,12 +1591,19 @@
 60251300 Common Common Common {@RawItem:45293}
 60251400 Common Common Common {@RawItem:45294}
 60251700 Common Common Common {@RawItem:45299}
+60401301 Common Common Common Pleasant Greeting
 60950510 Common Common Common Mutate (Balder's Gift)
 60950511 Common Common Common Stun (Balder's Gift)
 60950512 Common Common Common Fear (Balder's Gift)
 60950513 Common Common Common Light (Balder's Gift)
 60950514 Common Common Common Punish (Balder's Gift)
 60950515 Common Common Common Quake (Balder's Gift)
+60951901 Common Common Common Repel
+60951902 Common Common Common Inexorable Pull
+60951903 Common Common Common Human Cannonball
+60951904 Common Common Common Rising Wind
+60951905 Common Common Common Oneiric Lance
+60951906 Common Common Common Dream Bolt
 61000100 Common Common Common Collectivist
 61000200 Common Common Common Adiar's Request
 61000300 Common Common Common Union Mission
@@ -817,6 +1621,7 @@
 61001800 Common Common Common Tenacious Aura
 61001900 Common Common Common Enduring Aura
 61002000 Common Common Common Wholehearted Aura
+61016000 Common Common Common Rampage I
 61900007 Common Common Common Transformation: Green Wintera Snowman
 61900008 Common Common Common Transformation: Yellow Wintera Snowman
 61900009 Common Common Common Transformation: Blue Wintera Snowman
@@ -830,26 +1635,24 @@
 61905002 Common Common Common Summon Pet: Fetch
 61905003 Common Common Common Summon Pet: Dragonette
 61905004 Common Common Common Summon Pet: Rambo
-61905005 Common Common Common Summon Pet: Popolin
+61905005 Common Common Common Summon Pet: Cheeks
 61905006 Common Common Common Summon Pet: Boo
 61905007 Common Common Common Summon Pet: Boo
-61905008 Common Common Common Summon Pet: Ser Picks-a-lot
-61905009 Common Common Common Summon Pet: Popolin
+61905008 Common Common Common Summon Pet: Felicity
+61905009 Common Common Common Summon Pet: Cheeks
 61905010 Common Common Common Summon Pet: Peddit
 61905011 Common Common Common Summon Pet: Caddy
-61905012 Common Common Common Summon Pet: Ser Picks-a-lot
-61905013 Common Common Common Summon Pet: Zero
-61905014 Common Common Common Summon Pet: Miss Katonic
-61905015 Common Common Common Summon Pet: Pinkie
-61905016 Common Common Common Summon Pet: Bonzai
-61905017 Common Common Common Summon Pet: Addams
+61905012 Common Common Common Summon: Felicity
+61905013 Common Common Common Summon Pet: Wooley
 61906001 Common Common Common Summon Pet: Candyspinner
 61906003 Common Common Common Summon Pet: Dragonette
 61906004 Common Common Common Summon Pet: Rambo
 61906023 Common Common Common Summon Pet: Carnivorous Plant
 61906024 Common Common Common Summon Pet: Prince
 61906025 Common Common Common Summon Pet: Boo
-61906026 Common Common Common Summon Pet: Boo
+62000001 Common Common Common Velik's Horn
+62000002 Common Common Common Allemantheia's Bugle
+62000003 Common Common Common Kaiator's Drums
 62000100 Common Common Common Battle Standard
 62000110 Common Common Common Battle Standard
 62000120 Common Common Common Battle Standard
@@ -1906,6 +2709,7 @@
 111000 Common Common Sorcerer Magma Bomb X
 111040 Common Common Sorcerer Magma Bomb X
 111100 Common Common Sorcerer Magma Bomb XI
+111140 Common Common Sorcerer Magma Bomb XI
 120100 Common Common Sorcerer Void Pulse I
 120200 Common Common Sorcerer Void Pulse II
 120300 Common Common Sorcerer Void Pulse III
@@ -2189,3 +2993,4 @@
 330800 Common Common Warrior Smoke Flanker VIII
 330900 Common Common Warrior Smoke Flanker IX
 340100 Common Common Warrior Binding Sword
+350100 Common Common Warrior Infuriate I
