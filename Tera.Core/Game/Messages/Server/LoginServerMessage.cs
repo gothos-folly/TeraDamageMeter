@@ -20,7 +20,7 @@ namespace Tera.Game.Messages
             Id = reader.ReadEntityId();
             reader.Skip(4);
             PlayerId = reader.ReadUInt32();
-            reader.Skip(260);
+            reader.Skip(272);
             Name = reader.ReadTeraString();
         }
     }
